@@ -1,7 +1,7 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import { CardWithEnvelope, Navbar, PointerAnimation } from "./components";
+import { CardWithEnvelope, Navbar } from "./components";
 import { Home } from "./pages";
 import "./App.css";
 

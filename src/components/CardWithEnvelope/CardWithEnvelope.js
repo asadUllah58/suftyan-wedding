@@ -1,4 +1,3 @@
-/* global window */
 import React, { useEffect, useState } from "react";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
 
@@ -102,7 +101,7 @@ function Envelope({ children, buttonText, setCurrentYPosition }) {
         className="card-front"
       >
         <ButtonStyle onClick={() => window.scrollTo(0, 1500)}>
-          <img src="/images/open-button.png" />
+          <img src="/images/open-button.png" alt="open-button" />
         </ButtonStyle>
       </CardFrontStyle>
     </motion.div>
